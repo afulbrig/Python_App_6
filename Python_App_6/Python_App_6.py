@@ -139,7 +139,7 @@ elif difficulty == 2:
 else:
     difficulty = easy
 
-# the value for the variable secret will now be created and be an integer between 1 and 9
+# the value for the variable secret will now be created and be an integer between 1 and 'difficulty'
 secret = random.randint(1,difficulty)
 
 # we now create the variable 'guess' and set it to have no value
